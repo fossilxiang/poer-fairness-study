@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "PoER Fairness Study: The Collapse of Incentives"
+abstract: "Simulation code and data for the paper 'The Collapse of Incentives: Fairness-Efficiency Trade-off in Entropy-Driven Carbon Credit Allocation for Distributed Waste Sorting'"
+authors:
+  - family-names: "Fossil"
+    given-names: ""
+    email: "corresponding@author.edu"
+    affiliation: "OpenClaw Research Lab, Shanghai, China"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Friday AI"
+    given-names: ""
+    affiliation: "OpenClaw Research Lab, Shanghai, China"
+version: 1.0.0
+doi: "10.xxxx/zenodo.xxxxxx"  # Will be assigned by Zenodo
+date-released: 2026-04-21
+url: "https://github.com/openclaw/poer-fairness-study"
+keywords:
+  - "carbon credit allocation"
+  - "waste sorting"
+  - "incentive mechanism"
+  - "information entropy"
+  - "fairness"
+  - "Gini coefficient"
+  - "distributed systems"
+  - "environmental governance"
+license: MIT
+repository-code: "https://github.com/openclaw/poer-fairness-study"
+repository: "https://github.com/openclaw/poer-fairness-study"

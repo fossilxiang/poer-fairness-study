@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+  <rect width="1000" height="600" fill="white"/>
+  <text x="500" y="40" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">Gini Coefficient Evolution Over 30 Days</text>
+  <line x1="80" y1="500" x2="950" y2="500" stroke="black" stroke-width="2"/>
+  <line x1="80" y1="500" x2="80" y2="80" stroke="black" stroke-width="2"/>
+  <text x="70" y="505" text-anchor="end" font-family="Arial" font-size="12">0.0</text>
+  <line x1="75" y1="500" x2="80" y2="500" stroke="black" stroke-width="1"/>
+  <text x="70" y="425" text-anchor="end" font-family="Arial" font-size="12">0.2</text>
+  <line x1="75" y1="420" x2="80" y2="420" stroke="black" stroke-width="1"/>
+  <text x="70" y="345" text-anchor="end" font-family="Arial" font-size="12">0.4</text>
+  <line x1="75" y1="340" x2="80" y2="340" stroke="black" stroke-width="1"/>
+  <text x="70" y="265" text-anchor="end" font-family="Arial" font-size="12">0.6</text>
+  <line x1="75" y1="260" x2="80" y2="260" stroke="black" stroke-width="1"/>
+  <text x="70" y="185" text-anchor="end" font-family="Arial" font-size="12">0.8</text>
+  <line x1="75" y1="180" x2="80" y2="180" stroke="black" stroke-width="1"/>
+  <text x="70" y="105" text-anchor="end" font-family="Arial" font-size="12">1.0</text>
+  <line x1="75" y1="100" x2="80" y2="100" stroke="black" stroke-width="1"/>
+  <text x="80" y="520" text-anchor="middle" font-family="Arial" font-size="12">Day 0</text>
+  <text x="225" y="520" text-anchor="middle" font-family="Arial" font-size="12">Day 5</text>
+  <text x="370" y="520" text-anchor="middle" font-family="Arial" font-size="12">Day 10</text>
+  <text x="515" y="520" text-anchor="middle" font-family="Arial" font-size="12">Day 15</text>
+  <text x="660" y="520" text-anchor="middle" font-family="Arial" font-size="12">Day 20</text>
+  <text x="805" y="520" text-anchor="middle" font-family="Arial" font-size="12">Day 25</text>
+  <text x="950" y="520" text-anchor="middle" font-family="Arial" font-size="12">Day 30</text>
+  <line x1="80" y1="340.0" x2="950" y2="340.0" stroke="#ff7f0e" stroke-width="2" stroke-dasharray="5,5"/>
+  <polyline points="80.0,168.02885812207694 110.0,139.64917251512088 140.0,154.0633337435362 170.0,156.4785243239508 200.0,174.08159218892536 230.0,153.8026250495488 260.0,171.47898476539575 290.0,159.28719881988576 320.0,160.34830963786897 350.0,153.49176444812213 380.0,166.20291330787137 410.0,160.82405096969603 440.0,154.73754963194494 470.0,164.06834174229522 500.0,164.4419189567676 530.0,165.00454138216452 560.0,165.13279386685298 590.0,151.35685835956014 620.0,161.6281436965976 650.0,161.19820686714172 680.0,160.1415121748842 710.0,167.96723226388275 740.0,152.12834516363625 770.0,165.10142023695676 800.0,147.3111796977343 830.0,147.17790376441712 860.0,161.42198229318467 890.0,175.42510729775927 920.0,154.56625285851288 950.0,153.69465940240798" fill="none" stroke="#d62728" stroke-width="2.5" opacity="0.8"/>
+  <polyline points="80.0,417.1323683602674 110.0,432.6292442781727 140.0,432.916586663756 170.0,435.9769863398237 200.0,439.85220760962136 230.0,426.03131727204965 260.0,429.6925405262019 290.0,430.0347605392945 320.0,435.9222533721313 350.0,446.8462446283403 380.0,452.31408671634335 410.0,454.390763917188 440.0,426.30545029487297 470.0,447.5828414947091 500.0,425.45391177783466 530.0,428.64589088272845 560.0,453.4378765996823 590.0,431.42081755786836 620.0,418.17799102213235 650.0,426.07960493848515 680.0,451.90894938922 710.0,440.13032326396996 740.0,454.423407797309 770.0,434.4767874308178 800.0,435.5898649942357 830.0,432.8037649657978 860.0,444.2063177698421 890.0,431.20766029066135 920.0,432.57187747902833 950.0,440.25750464482854" fill="none" stroke="#2ca02c" stroke-width="2.5" opacity="0.8"/>
+  <polyline points="80.0,463.68593652589067 110.0,462.9216116452695 140.0,462.76979475963344 170.0,462.41873848004576 200.0,463.12400568800354 230.0,465.57470753395506 260.0,460.9086271356711 290.0,461.25193333213684 320.0,460.8081866028472 350.0,466.65586151855587 380.0,465.3211046209183 410.0,462.2052388858793 440.0,462.78873125878437 470.0,462.9316869187601 500.0,461.2702005672087 530.0,461.447381504388 560.0,463.263874361313 590.0,463.14331607869303 620.0,463.7512874741111 650.0,465.9596559466024 680.0,465.22426045602367 710.0,463.96521063490763 740.0,464.9064019728751 770.0,468.0948904632885 800.0,458.5404905787055 830.0,466.07738402747685 860.0,462.80200961628447 890.0,463.4859917020364 920.0,464.15869684163437 950.0,459.2363709661311" fill="none" stroke="#1f77b4" stroke-width="2" opacity="0.7"/>
+  <rect x="720" y="60" width="200" height="70" fill="white" stroke="black" stroke-width="1"/>
+  <line x1="730" y1="80" x2="760" y2="80" stroke="#d62728" stroke-width="2.5"/>
+  <text x="770" y="85" font-family="Arial" font-size="12">Original PoER (0.85)</text>
+  <line x1="730" y1="100" x2="760" y2="100" stroke="#2ca02c" stroke-width="2.5"/>
+  <text x="770" y="105" font-family="Arial" font-size="12">F-PoER (0.16)</text>
+  <line x1="730" y1="120" x2="760" y2="120" stroke="#1f77b4" stroke-width="2"/>
+  <text x="770" y="125" font-family="Arial" font-size="12">Weight-Based (0.09)</text>
+  <text x="515" y="560" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">Day</text>
+  <text x="30" y="290" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" transform="rotate(-90, 30, 290)">Gini Coefficient</text>
+</svg>
