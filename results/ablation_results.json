@@ -1,0 +1,72 @@
+[
+  {
+    "name": "PoER (baseline)",
+    "gini": 0.9288,
+    "top_10_share": "96.8%",
+    "carbon_kg_day": 1000.0,
+    "fs_utility": 15.36
+  },
+  {
+    "name": "+ Temporal windows (W=6)",
+    "gini": 0.0,
+    "top_10_share": "0.0%",
+    "carbon_kg_day": 1000.0,
+    "fs_utility": 0.0
+  },
+  {
+    "name": "+ Relative \u0394H",
+    "gini": 0.0,
+    "top_10_share": "0.0%",
+    "carbon_kg_day": 1000.0,
+    "fs_utility": 0.0
+  },
+  {
+    "name": "+ Hybrid split (50:50)",
+    "gini": 0.2702,
+    "top_10_share": "17.5%",
+    "carbon_kg_day": 1000.0,
+    "fs_utility": 23.64
+  },
+  {
+    "name": "+ Logarithmic mass factor",
+    "gini": 0.2758,
+    "top_10_share": "17.7%",
+    "carbon_kg_day": 1000.0,
+    "fs_utility": 23.46
+  },
+  {
+    "name": "+ Cap (2.5\u00d7)",
+    "gini": 0.2716,
+    "top_10_share": "17.3%",
+    "carbon_kg_day": 1000.0,
+    "fs_utility": 23.56
+  },
+  {
+    "name": "70:30 baseline:performance",
+    "gini": 0.2708,
+    "top_10_share": "17.7%",
+    "carbon_kg_day": 1000.0,
+    "fs_utility": 33.01
+  },
+  {
+    "name": "30:70 baseline:performance",
+    "gini": 0.2703,
+    "top_10_share": "17.5%",
+    "carbon_kg_day": 1000.0,
+    "fs_utility": 14.16
+  },
+  {
+    "name": "W=3 (8-hour windows)",
+    "gini": 0.2802,
+    "top_10_share": "17.7%",
+    "carbon_kg_day": 1000.0,
+    "fs_utility": 23.4
+  },
+  {
+    "name": "W=12 (2-hour windows)",
+    "gini": 0.2776,
+    "top_10_share": "17.8%",
+    "carbon_kg_day": 1000.0,
+    "fs_utility": 23.37
+  }
+]

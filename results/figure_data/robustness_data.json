@@ -1,0 +1,18 @@
+{
+  "poer_gini": {
+    "mean": 0.925,
+    "std": 0.0071
+  },
+  "fpoe_gini": {
+    "mean": 0.2715,
+    "std": 0.0101
+  },
+  "poer_carbon": {
+    "mean": 1000.0,
+    "std": 0.0
+  },
+  "fpoe_carbon": {
+    "mean": 1000.0,
+    "std": 0.0
+  }
+}

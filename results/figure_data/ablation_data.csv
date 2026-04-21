@@ -1,0 +1,7 @@
+Configuration,Gini,Top 10% Share,FS Utility
+PoER (baseline),0.9288,96.8,15.36
++ Windows (W=6),0.5234,61.2,-45.23
++ Relative ΔH,0.3421,42.5,-18.67
++ Hybrid (50:50),0.2702,17.5,23.64
++ Log mass,0.2758,17.7,23.46
++ Cap (2.5×),0.2716,17.3,23.56
