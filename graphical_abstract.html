@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphical Abstract - PoER Fairness Study</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #333;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #666;
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: normal;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            gap: 30px;
+        }
+        .panel {
+            flex: 1;
+            padding: 20px;
+            border-radius: 10px;
+            border: 3px solid;
+        }
+        .poer {
+            background: #ffe6e6;
+            border-color: #d73027;
+        }
+        .fpoe {
+            background: #e6ffe6;
+            border-color: #1a9850;
+        }
+        .panel h3 {
+            text-align: center;
+            margin-top: 0;
+            font-size: 18px;
+        }
+        .poer h3 { color: #d73027; }
+        .fpoe h3 { color: #1a9850; }
+        .metric {
+            margin: 15px 0;
+            padding: 10px;
+            background: rgba(255,255,255,0.7);
+            border-radius: 5px;
+        }
+        .metric-label {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .metric-value {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .poer .metric-value { color: #d73027; }
+        .fpoe .metric-value { color: #1a9850; }
+        .arrow-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .arrow {
+            font-size: 48px;
+            color: #667eea;
+            margin: 10px 0;
+        }
+        .improvements {
+            background: #f0f4ff;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        .improvements h4 {
+            margin: 0 0 10px 0;
+            color: #667eea;
+            font-size: 14px;
+        }
+        .improvements ul {
+            margin: 0;
+            padding-left: 20px;
+            font-size: 12px;
+            color: #333;
+        }
+        .improvements li {
+            margin: 5px 0;
+        }
+        .footer {
+            margin-top: 30px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>THE COLLAPSE OF INCENTIVES</h1>
+        <h2>Fairness-Efficiency Trade-off in Entropy-Driven Carbon Credit Allocation for Distributed Waste Sorting</h2>
+        
+        <div class="content">
+            <!-- Left Panel: PoER -->
+            <div class="panel poer">
+                <h3>❌ Original PoER<br><small>Extreme Inequality</small></h3>
+                
+                <div class="metric">
+                    <div class="metric-label">Gini Coefficient</div>
+                    <div class="metric-value">0.93</div>
+                </div>
+                
+                <div class="metric">
+                    <div class="metric-label">Top 10% Credit Share</div>
+                    <div class="metric-value">97%</div>
+                </div>
+                
+                <div class="metric">
+                    <div class="metric-label">Utility Starvation</div>
+                    <div class="metric-value">90% users</div>
+                </div>
+                
+                <div style="margin-top: 20px; padding: 10px; background: #d73027; color: white; text-align: center; border-radius: 5px; font-weight: bold;">
+                    INCENTIVE COLLAPSE ❌
+                </div>
+            </div>
+            
+            <!-- Arrow Section -->
+            <div class="arrow-section">
+                <div class="arrow">➡️</div>
+                <div class="improvements">
+                    <h4>🎯 F-PoER Improvements</h4>
+                    <ul>
+                        <li>Temporal Fragmentation<br><small>(6 windows/day)</small></li>
+                        <li>Relative Entropy Comparison</li>
+                        <li>Hybrid Allocation<br><small>(50% baseline + 50% performance)</small></li>
+                    </ul>
+                </div>
+                <div class="arrow">⬇️</div>
+                <div style="background: #667eea; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; margin-top: 10px;">
+                    71% Fairness Improvement
+                </div>
+            </div>
+            
+            <!-- Right Panel: F-PoER -->
+            <div class="panel fpoe">
+                <h3>✅ F-PoER<br><small>Fair Distribution</small></h3>
+                
+                <div class="metric">
+                    <div class="metric-label">Gini Coefficient</div>
+                    <div class="metric-value">0.27</div>
+                </div>
+                
+                <div class="metric">
+                    <div class="metric-label">Top 10% Credit Share</div>
+                    <div class="metric-value">17%</div>
+                </div>
+                
+                <div class="metric">
+                    <div class="metric-label">Statistical Significance</div>
+                    <div class="metric-value" style="font-size: 18px;">p &lt; 10⁻¹⁰⁰</div>
+                </div>
+                
+                <div style="margin-top: 20px; padding: 10px; background: #1a9850; color: white; text-align: center; border-radius: 5px; font-weight: bold;">
+                    FAIR & EFFECTIVE ✅
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <span class="highlight">Key Result:</span> 
+            F-PoER achieves <span class="highlight">71% fairness improvement</span> while maintaining equivalent carbon reduction effectiveness
+            <br><br>
+            <small>Validated with 500-household simulations × 30 days × 100 random seeds</small>
+        </div>
+    </div>
+</body>
+</html>
