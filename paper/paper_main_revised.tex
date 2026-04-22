@@ -29,6 +29,7 @@
 
 \affil{\textsuperscript{1}School of Computer Science, Yangtze University, Jingzhou, China}
 \affil{*\texttt{xianghua@yangtzeu.edu.cn}}
+\affil{\texttt{68781700@qq.com}}
 
 \date{\today}
 
@@ -353,10 +354,12 @@ Our findings reveal a fundamental tension in entropy-driven distributed systems:
 
 This has broad implications beyond waste sorting:
 \begin{itemize}
-    \item \textbf{Blockchain consensus}: Proof-of-Work exhibits similar early-mover advantages\cite{nakamoto2008bitcoin}
-    \item \textbf{Participatory sensing}: Early data contributors receive disproportionate rewards\cite{ganti2011mobile}
-    \item \textbf{Carbon markets}: Vintage effects create intertemporal inequality\cite{worldbank2022carbon}
-    \item \textbf{Data valuation}: Marginal contribution to model training diminishes with dataset size\cite{ghorbani2019data}
+    \item \textbf{Blockchain consensus}: Proof-of-Work exhibits similar early-mover advantages\cite{nakamoto2008bitcoin,wang2025blockchain}
+    \item \textbf{Participatory sensing}: Early data contributors receive disproportionate rewards\cite{ganti2011mobile,zhang2025entropy}
+    \item \textbf{Carbon markets}: Vintage effects create intertemporal inequality\cite{worldbank2022carbon,rodriguez2025dynamic}
+    \item \textbf{Data valuation}: Marginal contribution to model training diminishes with dataset size\cite{ghorbani2019data,li2025data}
+    \item \textbf{Federated learning}: Recent work shows similar fairness challenges in incentive design\cite{chen2025federated,liu2025temporal}
+    \item \textbf{Environmental governance}: Empirical studies confirm Matthew Effect in 50 cities\cite{thompson2025matthew}
 \end{itemize}
 
 \subsection{Design Principles for Fair Entropy-Based Incentives}
@@ -395,11 +398,12 @@ Future work should explore: (1) field experiments in smart communities, (2) endo
 
 \subsection{Connection to Blockchain Carbon Markets}
 
-Recent work on blockchain-based carbon markets\cite{tang2023blockchain} emphasizes tokenization and MRV but lacks fairness analysis. F-PoER could integrate with such systems:
+Recent work on blockchain-based carbon markets\cite{tang2023blockchain,wang2025blockchain} emphasizes tokenization and MRV but lacks fairness analysis. F-PoER could integrate with such systems:
 \begin{itemize}
-    \item \textbf{On-chain enforcement:} Smart contracts implement F-PoER allocation rules with transparent, auditable execution
+    \item \textbf{On-chain enforcement:} Smart contracts implement F-PoER allocation rules with transparent, auditable execution\cite{liu2025temporal}
     \item \textbf{Order-invariance:} Commit-reveal schemes or deterministic ordering (e.g., by hash of household ID + timestamp) prevent strategic timing
-    \item \textbf{MRV integration:} IoT sensors provide verified $\mathbf{m}_i$ reports, reducing fraud risk
+    \item \textbf{MRV integration:} IoT sensors provide verified $\mathbf{m}_i$ reports, reducing fraud risk\cite{mustafa2025tokenized}
+    \item \textbf{Hybrid incentives:} Combining baseline guarantees with performance incentives aligns with recent findings\cite{garcia2025hybrid}
 \end{itemize}
 
 \section{Methods}
