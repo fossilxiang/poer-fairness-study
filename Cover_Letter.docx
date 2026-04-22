@@ -1,0 +1,53 @@
+April 22, 2026
+
+Editor-in-Chief
+Environmental Science & Technology
+
+Dear Editor,
+
+We are pleased to submit our manuscript entitled "The Collapse of Incentives: Fairness-Efficiency Trade-off in Entropy-Driven Carbon Credit Allocation for Distributed Waste Sorting" for consideration in Environmental Science & Technology.
+
+Carbon credit mechanisms have emerged as promising tools for incentivizing distributed environmental management, yet their fairness properties remain poorly understood. Our work addresses this critical gap through the lens of information theory.
+
+Key Contributions:
+
+1. Critical Discovery: We reveal that pure entropy-based carbon credit mechanisms collapse due to extreme inequality—concentrating 97% of credits among 10% of early participants (Gini coefficient = 0.93). This "incentive collapse" stems from a fundamental property we term Diminishing Marginal Entropy Reduction (DMER).
+
+2. Theoretical Foundation: We prove the DMER theorem with explicit assumptions and error bounds, establishing that marginal entropy reduction decays as O(1/N) with cumulative participation. This creates an inherent first-mover advantage analogous to the Matthew Effect in environmental systems.
+
+3. Practical Solution: We develop Federated PoER (F-PoER), achieving 71% fairness improvement (Gini: 0.93→0.27, p<10⁻¹⁰⁰) while maintaining equivalent carbon reduction effectiveness. The mechanism combines temporal fragmentation, relative entropy comparison, and hybrid allocation (50% baseline guarantee + 50% performance incentive).
+
+4. Rigorous Validation: Our findings are validated through large-scale simulations (500 households, 30 days), ablation studies (10 configurations), and robustness analysis (100 random seeds). The results have broad implications for blockchain carbon markets, participatory sensing, and commons governance.
+
+Why EST?
+
+This work aligns perfectly with EST's scope in environmental technology and policy. Waste sorting and carbon credit allocation are central to sustainable environmental management, and our fairness-aware mechanism design offers practical solutions for real-world deployment. The interdisciplinary approach—combining information theory, mechanism design, and environmental economics—will interest EST's diverse readership.
+
+Originality Statement:
+
+This manuscript is original, has not been published previously, and is not under consideration by another journal. All authors (Hua Xiang and Hang Qin) have approved the submission and declare no competing interests.
+
+Suggested Reviewers:
+
+1. Dr. Han Wang - Blockchain carbon markets (Nature Communications, 2025)
+2. Dr. David Thompson - Matthew Effect in environmental incentives (Nature Sustainability, 2025)
+3. Dr. ShanBin Liu - Fair federated learning (FedGA, 2025)
+4. Dr. Atta Ul Mustafa - Tokenized recycling systems (Resources, Conservation & Recycling, 2025)
+5. Dr. Qinghua Kong - Entropy-based resource allocation (IEEE TPDS, 2023)
+
+We believe this work makes a significant contribution to environmental science and technology, particularly in the design of fair and effective incentive mechanisms for distributed environmental management.
+
+Thank you for your consideration.
+
+Sincerely,
+
+Hua Xiang (Corresponding Author)
+School of Computer Science
+Yangtze University
+Email: xianghua@yangtzeu.edu.cn
+ORCID: 0000-0001-8485-9063
+
+Hang Qin
+School of Computer Science
+Yangtze University
+Email: 68681700@qq.com
