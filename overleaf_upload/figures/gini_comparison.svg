@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="white"/>
+  <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">Gini Coefficient Comparison</text>
+  <line x1="80" y1="500" x2="750" y2="500" stroke="black" stroke-width="2"/>
+  <line x1="80" y1="500" x2="80" y2="80" stroke="black" stroke-width="2"/>
+  <text x="70" y="505" text-anchor="end" font-family="Arial" font-size="12">0.0</text>
+  <line x1="75" y1="500" x2="80" y2="500" stroke="black" stroke-width="1"/>
+  <text x="70" y="425" text-anchor="end" font-family="Arial" font-size="12">0.2</text>
+  <line x1="75" y1="420" x2="80" y2="420" stroke="black" stroke-width="1"/>
+  <text x="70" y="345" text-anchor="end" font-family="Arial" font-size="12">0.4</text>
+  <line x1="75" y1="340" x2="80" y2="340" stroke="black" stroke-width="1"/>
+  <text x="70" y="265" text-anchor="end" font-family="Arial" font-size="12">0.6</text>
+  <line x1="75" y1="260" x2="80" y2="260" stroke="black" stroke-width="1"/>
+  <text x="70" y="185" text-anchor="end" font-family="Arial" font-size="12">0.8</text>
+  <line x1="75" y1="180" x2="80" y2="180" stroke="black" stroke-width="1"/>
+  <text x="70" y="105" text-anchor="end" font-family="Arial" font-size="12">1.0</text>
+  <line x1="75" y1="100" x2="80" y2="100" stroke="black" stroke-width="1"/>
+  <line x1="80" y1="340.0" x2="750" y2="340.0" stroke="#ff7f0e" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="755" y="335.0" text-anchor="end" font-family="Arial" font-size="12" fill="#ff7f0e">Warning threshold (0.4)</text>
+  <rect x="110.0" y="159.6747092516233" width="80" height="340.3252907483767" fill="#d62728" stroke="black" stroke-width="2" opacity="0.7"/>
+  <text x="150" y="149.6747092516233" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">❌ 0.85</text>
+  <text x="150" y="520" text-anchor="middle" font-family="Arial" font-size="12">Original</text>
+  <text x="150" y="535" text-anchor="middle" font-family="Arial" font-size="12">PoER</text>
+  <rect x="230.0" y="436.28067342724046" width="80" height="63.71932657275953" fill="#2ca02c" stroke="black" stroke-width="2" opacity="0.7"/>
+  <text x="270" y="426.28067342724046" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">✅ 0.16</text>
+  <text x="270" y="520" text-anchor="middle" font-family="Arial" font-size="12">F-PoER</text>
+  <text x="270" y="535" text-anchor="middle" font-family="Arial" font-size="12">(Proposed)</text>
+  <rect x="350.0" y="463.2897862699343" width="80" height="36.71021373006565" fill="#1f77b4" stroke="black" stroke-width="2" opacity="0.7"/>
+  <text x="390" y="453.2897862699343" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">✅ 0.09</text>
+  <text x="390" y="520" text-anchor="middle" font-family="Arial" font-size="12">Weight-</text>
+  <text x="390" y="535" text-anchor="middle" font-family="Arial" font-size="12">Based</text>
+  <rect x="470.0" y="462.3246335675988" width="80" height="37.67536643240119" fill="#1f77b4" stroke="black" stroke-width="2" opacity="0.7"/>
+  <text x="510" y="452.3246335675988" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">✅ 0.09</text>
+  <text x="510" y="520" text-anchor="middle" font-family="Arial" font-size="12">Category-</text>
+  <text x="510" y="535" text-anchor="middle" font-family="Arial" font-size="12">Based</text>
+  <text x="30" y="290" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" transform="rotate(-90, 30, 290)">Gini Coefficient</text>
+</svg>
