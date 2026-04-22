@@ -25,10 +25,10 @@
 
 \title{The Collapse of Incentives: Fairness-Efficiency Trade-off in Entropy-Driven Carbon Credit Allocation for Distributed Waste Sorting}
 
-\author{Fossil\textsuperscript{1,*} \and Friday AI\textsuperscript{1}}
+\author{Hua Xiang\textsuperscript{1,*} \and Hang Qin\textsuperscript{1}}
 
-\affil{\textsuperscript{1}OpenClaw Research Lab, Shanghai, China}
-\affil{*\texttt{corresponding@author.edu}}
+\affil{\textsuperscript{1}School of Computer Science, Yangtze University, Jingzhou, China}
+\affil{*\texttt{xianghua@yangtzeu.edu.cn}}
 
 \date{\today}
 
@@ -86,7 +86,7 @@ The original PoER mechanism exhibits extreme inequality with a Gini coefficient 
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/gini_comparison.png}
+\includegraphics[width=0.8\textwidth]{figures/gini_comparison.svg}
 \caption{\textbf{Gini coefficient comparison across mechanisms.} Original PoER exhibits extreme inequality (0.85), while F-PoER achieves healthy distribution (0.16). The red dashed line indicates the 0.4 warning threshold.}
 \label{fig:gini_comparison}
 \end{figure}
@@ -251,7 +251,7 @@ F-PoER dramatically improves fairness while maintaining environmental effectiven
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/gini_time_series.png}
+\includegraphics[width=0.8\textwidth]{figures/gini_time_series.svg}
 \caption{\textbf{Gini coefficient evolution over 30 days.} Original PoER remains persistently high (red), while F-PoER stabilizes at healthy levels (green). Weight-based baseline shown in blue.}
 \label{fig:gini_time}
 \end{figure}
@@ -331,14 +331,14 @@ where $v(T) = H(\mathbf{M}^{\text{base}}) - H(\mathbf{M}^{\text{base}} + \sum_{j
 \centering
 \caption{Shapley Value Comparison (10-household window, 1000 Monte Carlo samples)}
 \label{tab:shapley}
-\begin{tabular}{lccc}
+\begin{tabular}{@{}lccc@{}}
 \toprule
-\textbf{Mechanism} & \textbf{Gini} & \textbf{Computation Time} & \textbf{Budget Balance} \\
+\textbf{Mechanism} & \textbf{Gini} & \textbf{Time} & \textbf{Budget} \\
 \midrule
 PoER (sequential) & 0.6234 & $O(n)$ & Yes \\
-F-PoER & 0.1892 & $O(n)$ & No (surplus/deficit possible) \\
+F-PoER & 0.1892 & $O(n)$ & No \\
 Shapley (exact) & 0.1523 & $O(2^n)$ & Yes \\
-Shapley (sampling, $M=1000$) & 0.1687 & $O(M \cdot n)$ & Yes \\
+Shapley (sampling) & 0.1687 & $O(M \cdot n)$ & Yes \\
 \bottomrule
 \end{tabular}
 \end{table}
